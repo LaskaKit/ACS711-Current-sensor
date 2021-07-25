@@ -42,7 +42,7 @@ double avgVal(int pin, int filterLen, int delayMs)
   int value = 0;
   double voltage; 
 
-  for(int filterLen=0; filterLen < 50; filterLen++)
+  for(int i=0; i < filterLen; i++)
   {
     value += analogRead(pin);
     delay(delayMs);
