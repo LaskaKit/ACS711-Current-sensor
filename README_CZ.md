@@ -18,7 +18,7 @@ Abyste mohli měřit takový proud a zároveň minimalizovali ztráty na konekto
 Jako výstup pak slouží čtyřpinový hřebínek na kterém najdete napájení (3,3V) výstup z čidla (VIOUT) a také i alarmový výstup FAULT, který indikuje měřený proud mimo rozsah (nadproud).
 
 ## Příklad
-Připravili jsme pro vás i [vzorový příklad - github](https://github.com/LaskaKit/ACS711-Current-sensor/tree/main/examples) použití tohoto čidla s naší vývojovou deskou [ESP32 LPkit](https://www.laskarduino.cz/laskakit-esp32-lpkit-pcb-antenna/).
+Připravili jsme pro vás i [vzorový příklad - github](https://github.com/LaskaKit/ACS711-Current-sensor/tree/main/SW) použití tohoto čidla s naší vývojovou deskou [ESP32 LPkit](https://www.laskarduino.cz/laskakit-esp32-lpkit-pcb-antenna/).
 V tomto příkladu nejprve změříme zprůměrovanou klidovou hodnotu výstupního napětí a poté v nekonečně smčce měříme změnu výstupní napětím s ohledem na procházející proud. 
 
 ![Výstup ACS711 v Arduino IDE](https://github.com/LaskaKit/ACS711-Current-sensor/blob/main/img/ACS711_plotter.JPG)
