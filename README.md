@@ -18,7 +18,7 @@ The connection of load may by done by screw connector or by screws. This connect
 There is 4th pin male header where you find power supply (3-5.5V), output from sensor (VIOUT) and also alarm output which indicates the overcurrent.
 
 ## Example
-We prepared an [example on github](https://github.com/LaskaKit/ACS711-Current-sensor/tree/main/examples) how to use this module with our [ESP32 LPkit](https://www.laskarduino.cz/laskakit-esp32-lpkit-pcb-antenna/) evaluation board.
+We prepared an [example on github](https://github.com/LaskaKit/ACS711-Current-sensor/tree/main/SW) how to use this module with our [ESP32 LPkit](https://www.laskarduino.cz/laskakit-esp32-lpkit-pcb-antenna/) evaluation board.
 At first, we will measure the value without load. It is our base when we will subtract or add the voltage based on the polarity of measured current. 
 
 ![Output of ACS711 in Arduino IDE](https://github.com/LaskaKit/ACS711-Current-sensor/blob/main/img/ACS711_plotter.JPG)
